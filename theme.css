@@ -1,0 +1,27 @@
+@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@v1.0.14/CSS/css-scyfin/scyfin-theme-backdrop.css');
+
+.layout-desktop .listItem {
+  padding: 0.5em !important;
+}
+
+.listItemImage {
+  border-radius: 10px;
+}
+
+.layout-desktop .headerRight {
+  padding: 3px 5px !important;
+}
+
+.headerRight > * {
+  margin: 0 !important;
+}
+
+.headerRight > :not(:last-child) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.headerRight > :not(:first-child) {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
