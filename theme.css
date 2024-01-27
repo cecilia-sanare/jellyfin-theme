@@ -1,5 +1,6 @@
 @import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@v1.0.14/CSS/css-scyfin/scyfin-theme-backdrop.css');
 
+/* Round out the episode items */
 .layout-desktop .listItem {
   padding: 0.5em !important;
 }
@@ -8,6 +9,7 @@
   border-radius: 10px;
 }
 
+/* Round out the top-right nav buttons to improve them visually */
 .layout-desktop .headerRight {
   padding: 3px 5px !important;
 }
@@ -24,4 +26,13 @@
 .headerRight > :not(:first-child) {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+}
+
+/* If the content has its own custom logo then hide the name container */
+.detailLogo:not(.hide) ~ .detailPageWrapperContainer .nameContainer {
+  display: none;
+}
+
+.layout-desktop .detailLogo {
+  top: 8% !important;
 }
