@@ -18,12 +18,12 @@
   margin: 0 !important;
 }
 
-.headerRight > :not(:last-child) {
+.headerRight > button:not(:last-of-type) {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-.headerRight > :not(:first-child) {
+.headerRight > button:not(:first-of-type) {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
